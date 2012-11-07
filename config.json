@@ -1,0 +1,15 @@
+{
+    "id" : "chef-server-config",
+    "chef_last_commit" : "chef_development_xxx",
+    "pwnix-api_last_commit" : "pwnix-api_development_xxx",
+    "pwnix-api-client_last_commit" : "pwnix-api-client_development_xxx",
+    "pwnix-ui_last_commit" : "pwnix-ui_development_xxx",
+    "version" : "1.1",
+    "release" : "Violet Fritter",
+    "available_cookbooks" : [
+      { "pwnix-base-cookbook" : "base" } ,
+      { "pwnix-api-cookbook" : "base" } ,
+      { "pwnix-ui-cookbook" : "base" } ,
+      { "pwnix-test-remote" : "https://bridge.pwnieexpress.com/pwnix-test-remote.tar.gz" } 
+    ]
+}
