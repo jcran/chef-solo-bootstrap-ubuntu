@@ -4,7 +4,7 @@
 HOST="${1}"
 PORT="${2}"
 IDENTFILE="${3}"
-JSON="${4}"
+JSON="${4}.json"
 
 if [ -z "$HOST" ]; then
     echo "Usage: ./bootstrap.sh [USER@HOST] [PORT] [KEYFILE] <JSON>"
